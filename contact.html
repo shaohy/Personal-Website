@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Title</title>
+    <script src="main.js"></script>
+    <link rel="stylesheet" href="bulma.css">
+    <link rel="stylesheet" href="styles.css">
+    <script defer src="https://use.fontawesome.com/releases/v5.3.1/js/all.js"></script>
+
+</head>
+<body>
+<section class="hero">
+    <div class="hero-head">
+        <div class="navbar">
+            <div class="navbar-brand"></div>
+            <div class="navbar-menu">
+                <div class="navbar-start">
+                    <a class="navbar-item" href="index.html">Home</a>
+                </div>
+                <div class="navbar-end">
+                    <a class="navbar-item" href="index.html">About Me</a>
+                    <a class="navbar-item" href="resume.pdf">Resume</a>
+                    <a class="navbar-item" href="contact.html">Contact</a>
+                    <div class="navbar-item dropdown is-right">
+                        <div class="dropdown-trigger">
+                            <button class="button" aria-haspopup="true" aria-controls="dropdown-menu">
+                                <span>Social</span>
+                                <span class="icon is-small">
+        <i class="fas fa-angle-down" aria-hidden="true"></i>
+                        </span>
+                            </button>
+                        </div>
+                        <div class="dropdown-menu" id="dropdown-menu" role="menu">
+                            <div class="dropdown-content">
+                                <a class="dropdown-item">
+                                    facebook
+                                </a>
+                                <a href="#" class="dropdown-item is-active">
+                                    instagram
+                                </a>
+                                <a href="#" class="dropdown-item">
+                                    twitter
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="hero-body is-form-page">
+        <section class="columns has-text-centered">
+            <div class="container">
+                <div class="columns is-centered">
+                    <div class="column">
+                        <h1 class="title is-spaced is-size-1-desktop is-size-2-tablet is-size-3-mobile">
+                            Thanks for taking the time to reach out. <br>How can I help you?
+                        </h1></div>
+                </div>
+            </div>
+        </section>
+        <div class="columns">
+            <div class="column has-text-left is-three-fifths is-offset-one-fifth">
+                <label>
+                    Name
+                </label>
+                <div><input class="input control is-expanded" name="name" type="text" required></div>
+            </div>
+        </div>
+        <div class="columns">
+            <div class="column has-text-left is-three-fifths is-offset-one-fifth">
+                <label>
+                    Email
+                </label>
+                <div><input class="input control is-expanded" name="name" type="text" required></div>
+            </div>
+        </div>
+        <div class="columns">
+            <div class="column is-three-fifths is-offset-one-fifth">
+                <div class="field">
+                    <label class="label">Message</label>
+                    <div class="control is-expanded">
+                        <textarea class="textarea is-large" name="message" rows="5" required></textarea>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="columns">
+            <div class="column is-one-fifth is-offset-two-fifths">
+                <div class="field">
+                    <div class="control">
+                        <button class="button is-primary is-outlined is-medium is-fullwidth is-rounded">Submit</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+</body>
+</html>
